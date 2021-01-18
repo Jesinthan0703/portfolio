@@ -31,17 +31,18 @@
   padding: 15px;
   margin: 10px;
 }
-
-.parallax {
-  /* The image used */
-  background-image: url("pictures/galaxy.jpg");
-
-  /* Set a specific height */
-  height: 290px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100rem;
+.div-card {
+  border-radius: 11px;
+  background: #e0e0e0;
+  box-shadow: -21px -21px 41px #c3c3c3, 21px 21px 41px #fdfdfd;
+}
+.section-card {
+  border-radius: 46px;
+  background: #e0e0e0;
+  box-shadow: 6px 6px 26px #c3c3c3, -6px -6px 26px #fdfdfd;
+}
+.hline-bottom {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #000; /* whichever color you prefer */
+  width: 20rem;
 }
