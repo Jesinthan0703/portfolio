@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+.invert {
+  background-color: black;
+  color: white;
+}
+
 .name {
   font-size: 10rem;
   font-weight: bold;
@@ -31,18 +36,22 @@
   padding: 15px;
   margin: 10px;
 }
-.div-card {
-  border-radius: 11px;
-  background: #e0e0e0;
-  box-shadow: -21px -21px 41px #c3c3c3, 21px 21px 41px #fdfdfd;
+
+@media only screen and (max-width: 768px) {
+  .section_center {
+    align-items: center;
+  }
 }
-.section-card {
-  border-radius: 46px;
-  background: #e0e0e0;
-  box-shadow: 6px 6px 26px #c3c3c3, -6px -6px 26px #fdfdfd;
-}
+
 .hline-bottom {
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  border-bottom: 2px solid #000; /* whichever color you prefer */
+  border-top: 1px solid rgba(0, 0, 0, 0);
   width: 20rem;
+}
+@media only screen and (max-width: 768px) {
+  .hline-bottom {
+    margin-bottom: 2rem;
+    width: 10rem;
+  }
 }
