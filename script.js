@@ -1,14 +1,10 @@
 function invertPage() {
-  var a = document.getElementById("about_me");
+  var a = document.getElementById("colour_mode");
   if (a.classList.contains("invert") != true) {
-    document
-      .getElementById("darkButton")
-      .classList.add("bg-dark", "text-white");
+    document.getElementById("darkButton");
     a.classList.add("invert");
   } else {
-    document
-      .getElementById("darkButton")
-      .classList.add("bg-white", "text-dark");
+    document.getElementById("darkButton");
     a.classList.remove("invert");
   }
 }
