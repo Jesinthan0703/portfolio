@@ -4,6 +4,7 @@
   background-color: black;
   color: white;
 }
+
 input[type="checkbox"] {
   visibility: hidden;
 }
@@ -79,14 +80,6 @@ input:checked + label:after {
 }
 
 .hline-bottom {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-top: 1px solid rgba(0, 0, 0, 0);
-  width: 20rem;
-}
-@media only screen and (max-width: 768px) {
-  .hline-bottom {
-    margin-bottom: 2rem;
-    width: 10rem;
-  }
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000; /* whichever color you prefer */
 }
