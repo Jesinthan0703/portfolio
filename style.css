@@ -15,8 +15,8 @@ input[type="checkbox"] {
 label {
   cursor: pointer;
   text-indent: -9999px;
-  width: 5rem;
-  height: 2rem;
+  width: 3rem;
+  height: 1rem;
   background: grey;
   display: block;
   border-radius: 10px;
@@ -26,10 +26,10 @@ label {
 label:after {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 3px;
   left: 5px;
-  width: 2rem;
-  height: 1rem;
+  width: 1rem;
+  height: 10px;
   background: #fff;
   border-radius: 9px;
   transition: 0.3s;
