@@ -4,6 +4,9 @@
   background-color: black;
   color: white;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
 input[type="checkbox"] {
   visibility: hidden;
