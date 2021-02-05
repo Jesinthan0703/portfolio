@@ -1,21 +1,8 @@
-//COLOUR INVERT JS
-
-function invertPage() {
-  var a = document.getElementById("colour_mode");
-  if (a.classList.contains("invert") == true) {
-    document.getElementById("darkButton");
-    a.classList.remove("invert");
-  } else {
-    document.getElementById("darkButton");
-    a.classList.add("invert");
-  }
-}
-
-//JOB TITLE DURATION
+//******************************* JOB TITLE DURATION **********************
 
 var current_time = new Date();
 var current_time_str = current_time.toString();
-console.log(current_time_str);
+console.log("Current time is " + "'" + current_time_str + "'");
 var month = current_time_str.slice(4, 7);
 if (month == "Jan") {
   month = 7;
@@ -75,7 +62,8 @@ document.getElementById("duration_mobile_view").innerHTML =
   " months" +
   " )";
 
-// FOOTER COPYRIGHTS YEAR
+// **************************** FOOTER COPYRIGHTS YEAR *************************************
+
 console.log("Footer year is " + year);
 document.getElementById("footer_js").innerHTML =
   "© " +

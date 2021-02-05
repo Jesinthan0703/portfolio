@@ -564,6 +564,30 @@
       FOOTER STARTS
       ---------------------
     -->
+    <section>
+      <script
+        async
+        src="https://telegram.org/js/telegram-widget.js?14"
+        data-telegram-login="metadin_bot"
+        data-size="large"
+        data-onauth="onTelegramAuth(user)"
+        data-request-access="write"
+      ></script>
+      <script type="text/javascript">
+        function onTelegramAuth(user) {
+          alert(
+            "Logged in as " +
+              user.first_name +
+              " " +
+              user.last_name +
+              " (" +
+              user.id +
+              (user.username ? ", @" + user.username : "") +
+              ")"
+          );
+        }
+      </script>
+    </section>
     <section class="py-5" id="contact">
       <div class="container py-5">
         <div class="h1 text-center py-5">LET US GET IN TOUCH</div>
@@ -582,7 +606,7 @@
                   d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
                 />
               </svg>
-              <div class="h6 pt-3">jesinthan0703@gmail.com</div>
+              <div class="h6 pt-3">admin@jesinthan.tech</div>
               <div class="h6">jesin@pattarai.in</div>
             </div>
           </div>
@@ -657,6 +681,7 @@
         </svg>
       </div>
     </section>
+
     <!--
       ---------------------
       FOOTER ENDS
@@ -687,6 +712,7 @@
     ></script>
 
     <!-- Local JS -->
-    <script src="script.js"></script>
+    <script src="invert.js"></script>
+    <script src="duration.js"></script>
   </body>
 </html>
