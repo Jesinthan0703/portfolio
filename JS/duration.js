@@ -45,15 +45,7 @@ console.log("My duration in Simera is " + duration_month);
 var year = current_time_str.slice(11, 15);
 year = parseInt(year);
 var duration_year = year - 2021;
-document.getElementById("duration_desktop_view").innerHTML =
-  "( " +
-  // duration_year +
-  // " years " +
-  // " and " +
-  duration_month +
-  " months" +
-  " )";
-document.getElementById("duration_mobile_view").innerHTML =
+document.getElementById("simera_duration").innerHTML =
   "( " +
   // duration_year +
   // " years " +
