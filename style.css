@@ -86,3 +86,8 @@ input:checked + label:after {
   padding-bottom: 10px;
   border-bottom: 2px solid #000; /* whichever color you prefer */
 }
+
+::selection {
+  color: black;
+  background: white;
+}
